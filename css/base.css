@@ -141,3 +141,7 @@ header .discount {
     color: #2980b9;
     text-decoration: none;
 }
+.sidebar a :hover{
+    color: blue;
+    cursor: pointer;
+}
