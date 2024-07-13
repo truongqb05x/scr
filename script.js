@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const prices = {
         like: 15,
         comment: 20,
-        share: 40 ,
-        page : 60 ,
-        folow : 45 
+        share: 25 , 
+        folow : 45 ,
+        page : 60
     };
 
     function calculateTotal() {
