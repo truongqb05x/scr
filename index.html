@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMSNT - Admin Panel</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="img/logo.png" alt="CMSNT.CO">
+            </div>
+            <nav>
+                <ul>
+                    <!-- <li>Dashboard</li>
+                    <li>Top Nạp</li>
+                    <li>Nạp Tiền</li>
+                    <li>Hỗ Trợ</li>
+                    <li>Nhật Ký Order</li>
+                    <li>Panel Admin</li> -->
+                    <a class="a_suoport" href="https://www.facebook.com/profile.php?id=100093400989542" target="_blank"><li>Liên Hệ Hỗ Trợ</li></a>
+                    <li><a href="#">Dịch Vụ Facebook</a></li>
+                    <li><a href="#">Dịch Vụ Youtube</a></li>
+                    <li><a href="#">Dịch Vụ TikTok</a></li>
+                    <li><a href="#">Dịch Vụ Instagram</a></li>
+                    <!-- <li><a href="#">Dịch Vụ Twitter</a></li>
+                    <li><a href="#">Dịch Vụ SoundCloud</a></li> -->
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <header>
+                <h1>Xin Chào BẠN!</h1>
+                <div class="user-info">
+                    <span>User</span>
+                    <span>1,164,186 VND</span>
+                    <button class="discount">Giảm 10%</button>
+                </div>
+            </header>
+            <section class="order-form">
+                <h2>Dịch Vụ Facebook</h2>
+                <form id="orderForm">
+                    <label for="service">Chọn Dịch Vụ</label>
+                    <select id="service">
+                        <option value="like">Tăng Like Bài Viết Facebook (25 VND)</option>
+                        <option value="comment">Tăng Comment Bài Viết Facebook (20 VND)</option>
+                        <option value="share">Tăng Share Bài Viết Facebook (40 VND)</option>
+                    </select>
+                    <label for="quantity">Số Lượng Tăng</label>
+                    <input type="number" id="quantity" placeholder="Nhập số lượng">
+                    <label for="user">Nick Cần Tăng</label>
+                    <input type="text" id="user" placeholder="Nhập link, uid hoặc username cần chạy">
+                    <label for="notes">Ghi Chú</label>
+                    <textarea id="notes" placeholder="Ghi chú nếu có"></textarea>
+                    <div class="summary">
+                        <span id="quantityDisplay">Số lượng cần tăng: 0</span>
+                        <span id="discountDisplay">Chiết khấu giảm: 10%</span>
+                        <span id="totalDisplay">Tổng: 0 VND</span>
+                    </div>
+                    <button type="submit">Tạo Đơn Hàng</button>
+                </form>
+            </section>
+            <section class="notes">
+                <h3>Chú Ý</h3>
+                <ul>
+                    <li>Vui lòng nhập đầy đủ thông tin để chúng tôi xử lý giao dịch cho bạn.</li>
+                    <li>Trường hợp đơn hàng thiếu hoặc Link không hợp lệ, chúng tôi sẽ HỦY đơn hàng đó và tự động hoàn lại số dư ví cho quý khách.</li>
+                    <li>Nếu quý khách có nhu cầu HỦY đơn hàng vì một lý do nào đó, xin vui lòng gửi hỗ trợ cho chúng tôi qua <a href="#">ĐÂY</a>, không hoàn tiền đối với trường hợp này.</li>
+                    <li>Nếu tăng LIKE BÀI VIẾT: vui lòng mở công khai bài viết để hệ thống tăng cho quý khách, EDIT quyền riêng tư vào <a href="#">ĐÂY</a>.</li>
+                    <li>Nếu tăng THEO DÕI TRANG CÁ NHÂN: vui lòng bật chức năng theo dõi và đảm bảo nick của bạn > 18 Tuổi, EDIT theo dõi tại <a href="#">ĐÂY</a>.</li>
+                    <li>Nếu tăng CMT: vui lòng nhập cmt cần tăng tại ô GHI CHÚ, mỗi CMT cách nhau mỗi dấu phẩy (,).</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
