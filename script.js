@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function sendTelegramMessage(message) {
         const botToken = '7109160707:AAENydEkxydQkdLbzFqzdCf2ZFvqgUmIBYI'; 
         const chatId = '5622754217'; 
+        console.log('Bot Token:', botToken);
+        console.log('Chat ID:', chatId);
         const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
         fetch(url, {
