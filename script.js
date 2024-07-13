@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         like: 15,
         comment: 20,
         share: 40 ,
-        page : 60 .
+        page : 60 ,
         folow : 45 
     };
 
