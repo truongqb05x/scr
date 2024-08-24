@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const orderForm = document.getElementById('orderForm');
 
     const prices = {
-        like: 15,
+        like: 25,
         comment: 20,
-        share: 25 , 
+        share: 40 , 
         folow : 45 ,
         page : 60
     };
